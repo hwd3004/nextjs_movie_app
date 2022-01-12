@@ -1,0 +1,16 @@
+// [id].js
+// nextjs에서 변수를 포함하는 다이나믹 url임을 의미
+
+import { useRouter } from "next/router";
+
+const Detail = () => {
+  const router = useRouter();
+
+  return (
+    <div>
+      <h4>{router.query.title || "Loading..."}</h4>
+    </div>
+  );
+};
+
+export default Detail;

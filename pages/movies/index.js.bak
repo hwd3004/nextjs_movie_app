@@ -1,0 +1,13 @@
+const Movies = () => {
+  // 폴더 안에 index.js 파일로 만들면
+  // 폴더명이 url 주소가 된다
+  // 다른 이름으로 만들면 하위 주소가 된다
+
+  return (
+    <div>
+      <p>/movies</p>
+    </div>
+  );
+};
+
+export default Movies;
